@@ -14,8 +14,8 @@ Agradecemos [contribuições](CONTRIBUTING.md) a esse guia.
 
 ## Conteúdo
 
-* [Fundamentos](#foundations)
-  *  [Separe as Responsabilidades](#separate-concerns)
+* [Fundamentos](#fundamentos)
+  *  [Separe as Responsabilidades](#separe-as-responsabilidades)
   *  [Exija Conexões Seguras](#require-secure-connections)
   *  [Exija Versionamento no Cabeçalho Accepts](#require-versioning-in-the-accepts-header)
   *  [Suporte ETags para Cacheamento](#support-etags-for-caching)
@@ -37,7 +37,7 @@ Agradecemos [contribuições](CONTRIBUTING.md) a esse guia.
   *  [Gere erros estruturados](#generate-structured-errors)
   *  [Mostre o estado limite de requisições](#show-rate-limit-status)
   *  [Manter o JSON minificado em todas as respostas](#keep-json-minified-in-all-responses)
-* [Artefatos](#artifacts)
+* [Artefatos](#artefatos)
   *  [Prover um esquema JSON processável](#provide-machine-readable-json-schema)
   *  [Prover documentação para leitura](#provide-human-readable-docs)
   *  [Prover exemplos executáveis](#provide-executable-examples)
