@@ -16,8 +16,8 @@ Agradecemos [contribuições](CONTRIBUTING.md) a esse guia.
 
 * [Fundamentos](#fundamentos)
   *  [Separe as Responsabilidades](#separe-as-responsabilidades)
-  *  [Exija Conexões Seguras](#exija-conexoes-seguras)
-  *  [Exija Versionamento no Cabeçalho Accepts](#exija-versionamento-no-cabecalho-accepts)
+  *  [Exija Conexões Seguras](#exija-conexões-seguras)
+  *  [Exija Versionamento no Cabeçalho Accepts](#exija-versionamento-no-cabeçalho-accepts)
   *  [Suporte ETags para Cacheamento](#support-etags-for-caching)
   *  [Forneça Request-Ids para Introspecção](#provide-request-ids-for-introspection)
   *  [Divida Respostas Longas Entre Requisições com Ranges](#divide-large-responses-across-requests-with-ranges)
