@@ -189,7 +189,7 @@ Preste atenção ao uso de códigos de erros para autenticação e autorização
 * `401 Unauthorized`: Requisição falhou por que o usuário não está autenticado
 * `403 Forbidden`: Requisição falhou por que o usuário não tem autorização para acessar o recurso especifico
 
-Retorne códigos adequadospara prover informações adicionais quando há erros:
+Retorne códigos adequados para prover informações adicionais quando há erros:
 
 * `422 Unprocessable Entity`: Sua requisição foi entendida, mas contém parâmetros inválidos
 * `429 Too Many Requests`: Você superou o limite de consumo, tente novamente mais tarde
@@ -321,7 +321,7 @@ Documente seus formatos de erros e possíveis `id`s de erros que os clientes pos
 
 #### Mostre o estado limite de requisições
 
-Limite as requisições dos clientes para proteger o seu serviço e manter um serviço de alta qualidade  para outros clientes. Voc6e pode usar um
+Limite as requisições dos clientes para proteger o seu serviço e manter um serviço de alta qualidade  para outros clientes. Você pode usar um
 [algoritimo de token bucket](http://en.wikipedia.org/wiki/Token_bucket) para calcular o limite de respostas.
 
 Retorne o número restante de requisições no cabeçalho de resposta `RateLimit-Remaining`.
